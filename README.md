@@ -114,6 +114,26 @@ Important note:
 
 ## Quick Start
 
+### Clone With RAFT
+
+This project depends on the official Princeton RAFT repository:
+
+- <https://github.com/princeton-vl/raft>
+
+If you clone this coursework repository, make sure the `RAFT/` dependency is also fetched.
+
+Recommended:
+
+```bash
+git clone --recurse-submodules https://github.com/Apsie09/Video-Stabilization-Optical-Flow-RAFT.git
+```
+
+If you have already cloned the repository without submodules:
+
+```bash
+git submodule update --init --recursive
+```
+
 ### Environment
 
 For modern NVIDIA GPUs:
@@ -170,7 +190,9 @@ The LaTeX source is:
 
 ## Acknowledgements
 
-- RAFT source code by the Princeton Vision and Learning Lab: `RAFT/`
+- RAFT source code by the Princeton Vision and Learning Lab:
+  - repository: <https://github.com/princeton-vl/raft>
+  - local dependency folder: `RAFT/`
 - MIT 6.S184 course notes and materials on flow and diffusion models:
   - course page: <https://diffusion.csail.mit.edu/2026/index.html>
   - lecture notes: <https://diffusion.csail.mit.edu/2026/docs/lecture_notes.pdf>
