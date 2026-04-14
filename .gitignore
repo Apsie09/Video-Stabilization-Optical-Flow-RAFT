@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated experiment artifacts and media
+degraded_videos/
+experiments/
+plots/
+videos/
+
+# Model weights and bundled archives
+models/
+RAFT/models.zip
+RAFT/demo-frames/
+
+# Report build artifacts
+report/build/*
+!report/build/main.pdf
+
+# Filler / internal tracking documents
+PROJECT_STATUS.md
+RESULTS_SUMMARY.md
+SUBMISSION_FILES.md
+report/README.md
+report/report_summary.md

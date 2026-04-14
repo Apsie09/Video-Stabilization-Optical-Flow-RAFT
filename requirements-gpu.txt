@@ -1,0 +1,12 @@
+# Modern dependencies for running this project on newer GPUs (e.g. RTX 40xx).
+# Install PyTorch + CUDA with conda first, then install this file with pip.
+#
+# Recommended torch install command:
+#   conda install pytorch torchvision pytorch-cuda=12.1 -c pytorch -c nvidia
+
+numpy==1.26.4
+opencv-python==4.10.0.84
+Pillow==10.4.0
+scipy==1.10.1
+future==1.0.0
+matplotlib==3.9.2
