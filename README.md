@@ -13,7 +13,7 @@ The main practical conclusion of the work is that, for this pipeline and hardwar
 
 This coursework was motivated by two directions:
 
-- multimedia processing and video analysis in university coursework
+- My Multimedia Processing and Video Analysis university course
 - the MIT course [6.S184: Generative AI with Stochastic Differential Equations](https://diffusion.csail.mit.edu/2026/index.html), especially its treatment of flow models, diffusion models, ODEs, and SDEs
 
 The implementation itself is a video-stabilization system, not a diffusion model. The MIT material mainly informed the broader mathematical framing in the report.
@@ -24,7 +24,7 @@ The implementation itself is a video-stabilization system, not a diffusion model
   <img src="report/figures/flow_example.png" alt="Flow model visualization" width="900">
 </p>
 
-The broader mathematical framing of the coursework was also influenced by flow and diffusion models, especially the ODE/SDE viewpoint presented in MIT 6.S184.
+The broader mathematical framing of the coursework was also influenced by flow and diffusion models, especially the ODE/SDE viewpoint presented in the Introduction to Flow Matching and Diffusion Models 2026 MIT course.
 
 ## What The Project Contains
 
